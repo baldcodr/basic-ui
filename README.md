@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 Website live preview reside here
 =======
 Website live preview reside here
