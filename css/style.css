@@ -1,10 +1,22 @@
-div .topnav-centered{
+/*Mobile only style*/
+@media only screen and (max-width: 700px) {
+img.brand-logo{
+    margin-top: 15px;
+    width: 155px;
+    height: auto;
+
+}
+
+}
+/*Mobile style end*/
+.topnav-centered{
     display: flex;
     color: black;
     text-decoration: black;
-    float: left;
+    float: none;
     position: absolute;
     padding-top: 50px;
+    margin-left: 120px;
     font-size: 20px;
     top: 50%;
     left: 50%;
@@ -84,14 +96,35 @@ div.topnav-centered ul li{
 a {
     color: black;
 }
-/*img{
+div.imgadj{
     display: block;
+    justify-content: center;
+    height: auto;
     position: relative;
-    width: 90%;
     padding-right: auto;
+    padding-top: 0px;
+
     padding-left: auto;
     float: none;
 }
- */
+/* nav line */
+navline1{
+    position: absolute;
+    padding-top: 50;
+    margin-top: 50;
+}
+
+/* nav line */
+navline2{
+position: absolute;
+width: 353px;
+height: 0px;
+left: 7px;
+top: 35px;
+
+border: 0.25px solid #000000;
+transform: rotate(0.16deg);
+}
+
 
  
