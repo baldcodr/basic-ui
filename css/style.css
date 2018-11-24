@@ -87,7 +87,6 @@ div.divider{
 }
 .nav-centered{
     display: block;
-    box-shadow: 0;
     color: black;
     text-decoration: black;
     position: relative;
@@ -180,11 +179,14 @@ div.topnav-centered ul li{
     color: black;
 }
 
+a:hover{
+    color: red;
+    text-decoration: none;
+}
 a{
     color: black;
     text-decoration: none;
 }
-
 div.imgadj{
     display: block;
     justify-content: center;
